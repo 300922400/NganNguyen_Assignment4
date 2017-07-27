@@ -11,12 +11,12 @@ using System.Text;
  */
 namespace NganNguyen_Assignment4
 {
-    public interface IHasMoon
+    public interface IHasMoons
     {
         /// <summary>
         /// creat the single method HasMoon returns a bool data type
         /// </summary>
         /// <returns></returns>
-        bool HasMoon();
+        bool HasMoons();
     }
 }

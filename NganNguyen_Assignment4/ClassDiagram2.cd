@@ -29,18 +29,11 @@
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="NganNguyen_Assignment4.IHasMoon">
+  <Interface Name="NganNguyen_Assignment4.IHasMoons">
     <Position X="4" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMoon.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="NganNguyen_Assignment4.IhasRing">
-    <Position X="6" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IhasRing.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Tahoma" Size="8.25" />
