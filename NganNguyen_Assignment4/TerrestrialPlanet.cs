@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Ngan Nguyen
+ * Name: Ngan Nguyen - ID:300922400
  * Date: July 26, 2017
  * Description: This is the TerrestrialPlanet subclass  
  * derive from the Planet Abstract Class
- * Version: 0.1 - the GiantPlanet subclass
+ * Version: 0.1 - Create the TerresstrialPlanet subclass
  */
 
 namespace NganNguyen_Assignment4
