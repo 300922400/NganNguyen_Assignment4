@@ -21,6 +21,14 @@ namespace NganNguyen_Assignment4
         //private  instance variables
         private string _type;
         //public properties
+        /// <summary>
+        /// This is main contructor for GiantPlanet Class
+        /// There are 4 parameter: name(string),diameter(double),mass(double),type(string)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        /// <param name="type"></param>
         //constructors
         public GiantPlanet(string name, double diameter, double mass, string type)
             :base (name,diameter,mass)
