@@ -16,7 +16,7 @@ namespace NganNguyen_Assignment4
     /// <summary>
     /// This is the abstract class planet
     /// </summary>
-     abstract class Planet
+    public abstract class Planet
     {
         // PRIVATE FIELDS (INSTANCE VARIABLES)
          private double _diameter;
@@ -28,18 +28,18 @@ namespace NganNguyen_Assignment4
          private double _rotationPeriod;
          
         // PUBLIC PROPERTIES -----------------------------------------
-         public readonly double Diameter
+         public double Diameter
          {
              get
              {
                  return this._diameter;
              }
          }
-         public readonly double Mass
+          public double Mass
          {
              get
              {
-                 return this._mass;
+                 return  this._mass;
              }
          }
          public int MoonCount
@@ -53,7 +53,7 @@ namespace NganNguyen_Assignment4
                  this._moonCount = value;
              }
          }
-         public readonly string Name
+         public string Name
          {
              get
              {
