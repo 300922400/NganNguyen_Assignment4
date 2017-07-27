@@ -17,6 +17,6 @@ namespace NganNguyen_Assignment4
         /// creat the single method HasMoon returns a bool data type
         /// </summary>
         /// <returns></returns>
-        bool IHasRings();
+        bool HasRings();
     }
 }
