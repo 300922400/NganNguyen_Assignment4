@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Date: July 25, 2017
  * Description: This is the abstract class Planet which other subclasses will
  * derive from.
- * Version: 0.1 - Create The Abstract Class Planet
+ * Version: 0.2 - Modify the override method to string
  */
 
 namespace NganNguyen_Assignment4
@@ -112,7 +112,13 @@ namespace NganNguyen_Assignment4
         // PUBLIC ABSTRACT METHODS
          public override string ToString()
          {
-             return string.Format("Name:{0},Diameter:{1},Mass:{2}",Name,Diameter,Mass);
-         }
+            //return string.Format("Name:{0},Diameter:{1},Mass:{2}",Name,Diameter,Mass);
+            string outputString = "";
+            outputString += "The Planet is " + this.Name + "\n";
+            outputString += "===================================\n";
+            outputString += "The Diameter is " + this.Diameter + "\t" + "The Mass is " + this.Mass + "\n";
+            outputString += "===================================";
+            return outputString;
+        }
     }
 }
