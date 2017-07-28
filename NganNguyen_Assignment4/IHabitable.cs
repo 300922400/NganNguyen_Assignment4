@@ -13,6 +13,10 @@ namespace NganNguyen_Assignment4
 {
     public interface IHabitable
     {
+        /// <summary>
+        /// creat the single method Habitable returns a bool data type
+        /// </summary>
+        /// <returns></returns>
         bool Habitable();
     }
 }

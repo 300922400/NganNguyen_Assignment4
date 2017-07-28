@@ -14,7 +14,7 @@ namespace NganNguyen_Assignment4
     public interface IHasRings
     {
         /// <summary>
-        /// creat the single method HasMoon returns a bool data type
+        /// creat the single method HasRings returns a bool data type
         /// </summary>
         /// <returns></returns>
         bool HasRings();
